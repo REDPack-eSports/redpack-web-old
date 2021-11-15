@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+footer {
+	padding: 1em;
+	text-align: center;
+ display: grid;
+ grid-template-columns: 33% 33% 33%;
+ color: hsl(0, 0%, 98%);
+ font-size: 2.75vw; 
+  .red {
+ color: hsl(354, 73%, 43%);
+ }
+  .cyan {
+ color: hsl(187, 100%, 52%);
+ margin-left: 0.5em;
+ margin-right: 0;
+ }
+   p {
+  margin: 0;
+  letter-spacing: 1px;
+    }
+    .social {
+        width: 3vw;
+        height: auto;
+    }
+}
