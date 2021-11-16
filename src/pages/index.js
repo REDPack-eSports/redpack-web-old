@@ -8,26 +8,22 @@ import Teams from "../components/Teams"
 import Layout from "../components/Layout"
 import BannerText from "../components/BannerText"
 
-
-
-
-
 const IndexPage = () => {
   return (
     <body>
-						<div className={styles.maincontainer}>
-								<Banner/>
-								<div className={styles.foreground}>
-								<Layout>
-								<BannerText/>
-								<News/>
-								<Upcoming/>
-								<Teams/>
-							</Layout>
-     		</div> 
-  			</div> 	  
-  		</body>
+      <div className={styles.maincontainer}>
+        <Banner />
+        <div className={styles.foreground}>
+          <Layout>
+            <BannerText />
+            <News />
+            <Upcoming />
+            <Teams />
+          </Layout>
+        </div>
+      </div>
+    </body>
   )
 }
 
-export default IndexPage;
+export default IndexPage

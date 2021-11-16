@@ -1,81 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
 ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	display: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 img {
-	width: 100%;
-	max-width: 100%;
+  width: 100%;
+  max-width: 100%;
 }
 
 header {
-	display: grid;
-	grid-template-columns: 45% 10% 45%;
-	height: 7vh;
-	@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');	
+  display: grid;
+  grid-template-columns: 45% 10% 45%;
+  height: 7vh;
+  @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
 
-	.left {
-		nav {
-			height: 100%;
-			display: flex;
-			align-items: center;		
-			 a{
-				padding-left:8px;
-				font-size: 22px;
-    color: white;
-			}
+  .left {
+    nav {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      a {
+        padding-left: 8px;
+        font-size: 22px;
+        color: white;
+      }
 
-			.menu {
-				color: #FAFAFA;
-				width: 2em;
-				height: auto;
-			}
-		}
-	}
-	.center {
-		margin: 0 auto;
-		display: flex;
-		align-items: center;
-		.logo {
-			width: 3em;
-			height: auto;
-		}
-	}
-	.right {
-		.live {
-			position: absolute;
-			right: 0.5em;
-			top: 0.3em;
-			width: 3em;
-			height: auto;
-		}
-	}
+      .menu {
+        color: #fafafa;
+        width: 2em;
+        height: auto;
+      }
+    }
+  }
+  .center {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    .logo {
+      width: 3em;
+      height: auto;
+    }
+  }
+  .right {
+    .live {
+      position: absolute;
+      right: 0.5em;
+      top: 0.3em;
+      width: 3em;
+      height: auto;
+    }
+  }
 }
 
 @media only screen and (min-width: 960px) {
- .left {
-			svg {
-				display: none;
-			}
-			ul {
-				margin-left: 0.5em;
-				display: flex;
-				letter-spacing: 0;
+  .left {
+    svg {
+      display: none;
+    }
+    ul {
+      margin-left: 0.5em;
+      display: flex;
+      letter-spacing: 0;
 
-				li {
-					margin-right: 1em;
-					margin-top: 0.25em;
-				}
-			}
-		}
+      li {
+        margin-right: 1em;
+        margin-top: 0.25em;
+      }
+    }
+  }
 }
-

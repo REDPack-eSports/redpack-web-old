@@ -1,57 +1,56 @@
 .banner {
-	text-align: center;
-	color: hsl(0, 0%, 98%);
-	padding: 1em;
-	margin-top: 0.5em;
-	height: 80vh;
-	margin-bottom: 8em;
+  text-align: center;
+  color: hsl(0, 0%, 98%);
+  padding: 1em;
+  margin-top: 0.5em;
+  height: 80vh;
+  margin-bottom: 8em;
 
+  h1 {
+    font-size: 30vw;
+    margin: 0;
+    margin-top: 0.3em;
+  }
 
-	h1 {
-		font-size: 30vw;
-		margin: 0;
-		margin-top: 0.3em;
-	}
+  h2 {
+    font-size: 12vw;
+    margin: 0;
+  }
 
-	h2 {
-		font-size: 12vw;
-		margin: 0;	
-	}
-
-	h3 {
-		color: hsl(354, 73%, 43%);
-		font-size: 6vw;
-		margin: 0;
-		margin-top: 1em;
-	}
+  h3 {
+    color: hsl(354, 73%, 43%);
+    font-size: 6vw;
+    margin: 0;
+    margin-top: 1em;
+  }
 }
 
 @media only screen and (min-width: 960px) {
- .banner {
-		text-align: left;
-		color: hsl(0, 0%, 98%);
-		padding: 1em;
-		margin-top: 0.5em;
-		margin-bottom: 8em;
-		margin-left: 1em;
-		letter-spacing: 0.1vw;
-		h1 {
-			font-size: 12vw;
-			margin: 0;
-			margin-top: 0.2em;
-		}
+  .banner {
+    text-align: left;
+    color: hsl(0, 0%, 98%);
+    padding: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 8em;
+    margin-left: 1em;
+    letter-spacing: 0.1vw;
+    h1 {
+      font-size: 12vw;
+      margin: 0;
+      margin-top: 0.2em;
+    }
 
-		h2 {
-			font-size: 5vw;
-			margin: 0;
-			margin-top: -0.5em;
-		}
+    h2 {
+      font-size: 5vw;
+      margin: 0;
+      margin-top: -0.5em;
+    }
 
-		h3 {
-			color: hsl(354, 73%, 43%);
-			font-size: 3vw;
-			margin: 0;
-			margin-top: 0.5em;
-		}
-	}
+    h3 {
+      color: hsl(354, 73%, 43%);
+      font-size: 3vw;
+      margin: 0;
+      margin-top: 0.5em;
+    }
+  }
 }
