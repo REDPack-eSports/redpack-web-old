@@ -1,5 +1,5 @@
 import React from 'react'
-import * as styles from "../styles/Home.module.scss"
+import * as styles from "../components/styledComp/BannerText.module.scss"
 
 const BannerText = () => {
  return (

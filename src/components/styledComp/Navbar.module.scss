@@ -4,6 +4,7 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	display: none;
 }
 
 a {
@@ -19,6 +20,8 @@ header {
 	display: grid;
 	grid-template-columns: 45% 10% 45%;
 	height: 7vh;
+	@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');	
 
 	.left {
 		nav {

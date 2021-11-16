@@ -3,7 +3,9 @@ import * as styles from "../components/styledComp/Navbar.module.scss"
 import logo from "../images/logo.svg"
 import live from "../images/live.svg"
 
+
 const Navbar = () => {
+
  return (
   <header>
           <div className={styles.left}>
@@ -15,7 +17,7 @@ const Navbar = () => {
               </a>
               <ul> 
                 <li><a href="#">Teams</a></li>
-																<li><a href="#">Schedule</a></li>
+								<li><a href="#">Schedule</a></li>
                 <li><a href="#">Media</a></li>
                 <li><a href="#">Contact</a></li>
                 {/* <li><a href="#">Shop</a></li> */}

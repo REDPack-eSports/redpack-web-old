@@ -1,5 +1,5 @@
 import React from 'react'
-import * as styles from "../styles/Home.module.scss"
+import * as styles from "../components/styledComp/Teams.module.scss"
 
 import playerph from "../images/player_ph.png"
 import phwhite from "../images/player_ph_white.png"
@@ -21,7 +21,7 @@ const Teams = () => {
           <div className={styles.content}>
             <div className={`${styles.item} ${styles.cs}`}>
               <div className={styles.inner}>
-								<h2>CS:GO</h2>
+								<a href="https://www.faceit.com/en/teams/135219c1-598c-46b9-b683-7ac25da35cc2"><h2>REDPack Esports</h2></a>
 								<div className={styles.team}>
 									<div className={styles.top}>
 										<div className={styles.player}>
@@ -44,7 +44,7 @@ const Teams = () => {
 										</div>
 										<div className={styles.player}>
 											<img src={playerph}/>
-											<p>TBA</p>
+											<p>-mhA-</p>
 										</div>
 									</div>
 								</div>
@@ -52,29 +52,91 @@ const Teams = () => {
             </div>
             <div className={`${styles.item} ${styles.valorant}`}>
               <div className={styles.inner}>
-								<h2>Valorant</h2>
+								<a href="https://www.faceit.com/en/teams/1809acf7-82ea-4631-a2d5-52b305589762"><h2>REDPack Hunters</h2></a>
 								<div className={styles.team}>
 									<div className={styles.top}>
 										<div className={styles.player}>
 											<img src={phwhite}/>
-											<p>TBA</p>
+											<p>erretzen</p>
 										</div>
 										<div className={styles.player}>
 											<img src={phwhite}/>
-											<p>TBA</p>
+											<p>awks</p>
 										</div>
 										<div className={styles.player}>
 											<img src={phwhite}/>
-											<p>TBA</p>
+											<p>adere</p>
 										</div>
 									</div>
 									<div className={styles.bottom}>
 										<div className={styles.player}>
 											<img src={phwhite}/>
-											<p>TBA</p>
+											<p>-reptroller</p>
 										</div>
 										<div className={styles.player}>
 											<img src={phwhite}/>
+											<p>JookerBB</p>
+										</div>
+									</div>
+								</div>
+              </div>
+            </div>
+												<div className={`${styles.item} ${styles.valorant}`}>
+              <div className={styles.inner}>
+								<a href="https://www.faceit.com/en/teams/9fa404e0-2602-4a3c-a67d-6187e24c11d5"><h2>REDPack Wild</h2></a>
+								<div className={styles.team}>
+									<div className={styles.top}>
+										<div className={styles.player}>
+											<img src={phwhite}/>
+											<p>bobon1</p>
+										</div>
+										<div className={styles.player}>
+											<img src={phwhite}/>
+											<p>phrika</p>
+										</div>
+										<div className={styles.player}>
+											<img src={phwhite}/>
+											<p>Winnie47</p>
+										</div>
+									</div>
+									<div className={styles.bottom}>
+										<div className={styles.player}>
+											<img src={phwhite}/>
+											<p>Animaluuu</p>
+										</div>
+										<div className={styles.player}>
+											<img src={phwhite}/>
+											<p>spargmasele</p>
+										</div>
+									</div>
+								</div>
+              </div>
+            </div>
+												<div className={`${styles.item} ${styles.cs}`}>
+              <div className={styles.inner}>
+								<h2>Valorant</h2>
+								<div className={styles.team}>
+									<div className={styles.top}>
+										<div className={styles.player}>
+											<img src={playerph}/>
+											<p>TBA</p>
+										</div>
+										<div className={styles.player}>
+											<img src={playerph}/>
+											<p>TBA</p>
+										</div>
+										<div className={styles.player}>
+											<img src={playerph}/>
+											<p>TBA</p>
+										</div>
+									</div>
+									<div className={styles.bottom}>
+										<div className={styles.player}>
+											<img src={playerph}/>
+											<p>TBA</p>
+										</div>
+										<div className={styles.player}>
+											<img src={playerph}/>
 											<p>TBA</p>
 										</div>
 									</div>

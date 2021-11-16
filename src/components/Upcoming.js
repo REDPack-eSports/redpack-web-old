@@ -1,5 +1,5 @@
 import React from 'react'
-import * as styles from "../styles/Home.module.scss"
+import * as styles from "../components/styledComp/Upcoming.module.scss"
 
 import upcone from "../images/Upcoming1.png"
 import upctwo from "../images/Upcoming2.png"
@@ -13,21 +13,21 @@ const Upcoming = () => {
    <section className={styles.upcoming}>
 				  <div className={styles.heading}>
 					  <a href="#">
-						  <h1 className={styles.sectionheader}>Upcoming</h1>
+						  <h1 className={styles.sectionheader}>Upcoming	</h1>
               <svg width="16" height="16" fill="currentColor" className={styles.headingArrow} viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
               </svg>
+													
 					  </a>
           </div>
-					<div className={styles.clearfix}></div>
-          
+										          
           <div className={`${styles.content} ${styles.mobile}`}>
             <div className={`${styles.item} ${styles.one}`}>
               <img className={styles.image} src={upcone} alt="upcoming_1"/>
 							<h2 className={styles.title}>Bi-weekly Youtube Shows</h2>
             </div>
 						<div className={`${styles.item} ${styles.two}`}>
-							<img className={styles.image} src={newsone} alt="upcoming_2"/>
+							<img className={styles.image} src={upctwo} alt="upcoming_2"/>
 							<h2 className={styles.title}>Tournament highlights</h2>
 						</div>
 						<div className={`${styles.item} ${styles.three}`}>
