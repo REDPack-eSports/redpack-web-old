@@ -1,5 +1,6 @@
 import React from 'react'
 import * as styles from "../components/styledComp/Upcoming.module.scss"
+import { Link } from 'gatsby'
 
 import upcone from "../images/Upcoming1.png"
 import upctwo from "../images/Upcoming2.png"
@@ -12,13 +13,12 @@ const Upcoming = () => {
   <div>
    <section className={styles.upcoming}>
 				  <div className={styles.heading}>
-					  <a href="#">
+							<Link to="#">
 						  <h1 className={styles.sectionheader}>Upcoming	</h1>
               <svg width="16" height="16" fill="currentColor" className={styles.headingArrow} viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
               </svg>
-													
-					  </a>
+							</Link>
           </div>
 										          
           <div className={`${styles.content} ${styles.mobile}`}>

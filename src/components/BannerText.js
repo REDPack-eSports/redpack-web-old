@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import * as styles from "../components/styledComp/BannerText.module.scss"
 
 const BannerText = () => {
@@ -7,7 +8,7 @@ const BannerText = () => {
    <section className={styles.banner}>
 												<h1>Redpack</h1>
 												<h2>Joins the game</h2>
-          		<a href="#"><h3>Check us out!</h3></a>
+          		<Link to="#"><h3>Check us out!</h3></Link>
 										</section>
   </div>
  )
