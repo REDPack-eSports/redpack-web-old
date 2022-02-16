@@ -8,7 +8,7 @@ const NavBar = () => {
                     bg-gray-900 
                     font-bold text-2xl text-white">
       <h1 className="hover:text-red-800 hover:underline">HOME</h1>
-      <h1 className="hover:text-red-800 hover:underline">TOURNAMENT</h1>
+      <h1 className="hover:text-red-800 hover:underline">EVENTS</h1>
       <h1 className="hover:text-red-800 hover:underline">TEAMS</h1> 
 
     </div>
