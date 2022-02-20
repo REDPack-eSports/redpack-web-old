@@ -1,5 +1,7 @@
 import React from 'react'
 
+import SponsorTag from './sponsor_tag'
+
 const Team = (props) => {
   return (
     <div className="bg-black rounded-xl p-6
@@ -8,10 +10,9 @@ const Team = (props) => {
           <h1 className="text-3xl font-black">
             {props.name}
           </h1>
-          <p className="text-center text-base font-semibold 
-                       border-2 rounded-lg">
-            {props.sponsor}
-          </p>
+          <SponsorTag link={props.sponsor.link}
+                      tag={props.sponsor.tag}
+          />
           <h2 className="text-xl">
             {props.game}
           </h2>

@@ -1,19 +1,20 @@
 import React from "react";
 
+import SponsorTag from "./sponsor_tag";
 import image from "../images/hero_redpack.png"
 
 const Hero = () => {
   const description = "THE FASTEST GROWING ROMAINAN ESPORTS ORGANIZATION"
-  const org_sponsors = "YOUR BRAND HERE"
-  const link = ">>> FIND OUT WHY <<<"
+  const sponsor_tag = "YOUR BRAND HERE"
+  const sponsor_link = "http://yourbrandhere.link/"
+  const link = "> FIND OUT WHY <"
   return (
     <div className="flex flex-col gap-6 p-6">
       <div className="flex flex-col gap-6">
         <img src={image} alt="Redpack" className="w-full self-center"/>
-        <h2 className="text-center text-xl font-semibold 
-                       border-2 rounded-lg w-3/4 self-center">
-          {org_sponsors}
-        </h2>
+        <SponsorTag link={sponsor_link}
+                    tag={sponsor_tag}
+        />
       </div>
       <div className="flex flex-col gap-6">
         <h2 className="text-center text-3xl font-bold text-red-700">
