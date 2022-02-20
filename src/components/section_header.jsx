@@ -4,9 +4,9 @@ import { BsArrowDownShort } from "react-icons/bs"
 
 const SectionHeader = (props) => {
   return (
-    <div className="flex pt-3">
-      <h1 className="text-6xl font-black pl-8 text-white">{props.name}</h1>
-      <BsArrowDownShort className="text-6xl -ml-3 text-white" />
+    <div className="flex text-4xl font-black pb-3">
+      <h1>{props.name}</h1>
+      <BsArrowDownShort className="mt-2 -ml-1"/>
     </div>
   )
 }

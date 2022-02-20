@@ -5,7 +5,7 @@ import Tournament from './tournament'
 
 const EventsShowcase = () => {
   return (
-    <div className="bg-gray-900">
+    <div className="p-6">
       <SectionHeader name="EVENTS" />
       <Tournament />
     </div>

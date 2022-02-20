@@ -5,9 +5,9 @@ import Team from './team'
 
 const TeamShowcase = () => {
   return (
-    <div className="bg-red-800">
+    <div className="p-6 bg-red-700">
         <SectionHeader name="TEAMS"/>
-        <div className="grid grid-cols-3 p-16 gap-16">
+        <div className="grid grid-cols-1 gap-6">
             <Team />
             <Team />
             <Team />
