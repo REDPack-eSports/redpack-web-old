@@ -1,17 +1,18 @@
-import React from "react";
+import React from 'react'
 
-import SponsorTag from "./sponsor_tag";
-import image from "../images/hero_redpack.png"
+import SponsorTag from './sponsor_tag'
 
-const Hero = () => {
-  const description = "THE FASTEST GROWING ROMAINAN ESPORTS ORGANIZATION"
+import image from "../images/hero_tournament.png"
+
+const Rpl = () => {
   const sponsor_tag = "YOUR BRAND HERE"
   const sponsor_link = "http://yourbrandhere.link/"
-  const link = "> THE STORY SO FAR <"
+  const description = "A NEW LEAGUE FOR ROMANIAN CS:GO ACADEMIES"
+  const link = "> FIND OUT MORE <"
   return (
-    <div className="grid grid-rows-2 gap-3 p-6 mt-6">
+    <div className="grid grid-rows-2 gap-3">
       <div className="flex flex-col gap-6">
-        <img src={image} alt="Redpack" className="w-full self-center"/>
+        <img src={image} alt="Romainan Provisional League" className="w-full self-center"/>
         <SponsorTag link={sponsor_link}
                     tag={sponsor_tag}
         />
@@ -27,6 +28,6 @@ const Hero = () => {
       </div>
     </div>
   );
-};
+}
 
-export default Hero;
+export default Rpl

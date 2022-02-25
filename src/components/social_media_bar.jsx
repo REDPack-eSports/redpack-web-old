@@ -10,19 +10,19 @@ const SocialMediaBar = () => {
           {callToAction}
         </h2>
         <div className="flex gap-6 justify-center text-4xl text-cyan-400">
-            <a href="https://www.youtube.com/c/REDPackEsports">
+            <a href="https://www.youtube.com/c/REDPackEsports" target="_blank">
               <BsYoutube />
             </a> 
-            <a href="https://twitter.com/RedPackEsports">
+            <a href="https://twitter.com/RedPackEsports" target="_blank">
               <BsTwitter />
             </a>
-            <a href="https://www.instagram.com/_redpack_">
+            <a href="https://www.instagram.com/_redpack_" target="_blank">
               <BsInstagram />
             </a>
-            <a href="https://www.facebook.com/redpackesports">
+            <a href="https://www.facebook.com/redpackesports" target="_blank">
               <BsFacebook />
             </a>
-            <a href="https://www.twitch.tv/redpackorg">
+            <a href="https://www.twitch.tv/redpackorg" target="_blank">
               <BsTwitch />
             </a>
         </div>

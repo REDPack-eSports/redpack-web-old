@@ -9,7 +9,7 @@ const TeamShowcase = () => {
       name: "REDPack Quantum",
       game: "CS:GO",
       sponsor: {
-        tag: "YOUR BRAND HERE",
+        tag: "SPONSOR",
         link: "http://yourbrandhere.link/"
       },
       players: ["AlexJ", "dyla", "7kick", "savage", "dan7"],
@@ -18,7 +18,7 @@ const TeamShowcase = () => {
       name: "REDPack Hunters",
       game: "CS:GO",
       sponsor: {
-        tag: "YOUR BRAND HERE",
+        tag: "SPONSOR",
         link: "http://yourbrandhere.link/"
       },
       players: ["awks", "warbringer", "exeqter", "tony77777", "erretzen"],
@@ -27,7 +27,7 @@ const TeamShowcase = () => {
       name: "REDPack UDP",
       game: "CS:GO",
       sponsor: {
-        tag: "YOUR BRAND HERE",
+        tag: "SPONSOR",
         link: "http://yourbrandhere.link/"
       },
       players: ["never-sleep", "velede", "Aless", "m0nkey", "mhA"],
@@ -36,7 +36,7 @@ const TeamShowcase = () => {
       name: "REDPack",
       game: "Valorant",
       sponsor: {
-        tag: "YOUR BRAND HERE",
+        tag: "SPONSOR",
         link: "http://yourbrandhere.link/"
       },
       players: ["17nik", "UNCAGED", "jurca", "nyw", "Javelin"],
@@ -45,7 +45,7 @@ const TeamShowcase = () => {
       name: "REDPack",
       game: "Rocket League",
       sponsor: {
-        tag: "YOUR BRAND HERE",
+        tag: "SPONSOR",
         link: "http://yourbrandhere.link/"
       },
       players: ["Slayer", "Deem", "Mario", "Miki"],
@@ -54,7 +54,7 @@ const TeamShowcase = () => {
       name: "REDPack",
       game: "Fortnite",
       sponsor: {
-        tag: "YOUR BRAND HERE",
+        tag: "SPONSOR",
         link: "http://yourbrandhere.link/"
       },
       players: ["Lynk", "28HeLL", "Mohito", "Glxck", "Ansilexx"],

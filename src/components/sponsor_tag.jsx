@@ -3,9 +3,9 @@ import React from 'react'
 const SponsorTag = (props) => {
   return (
     <div className="text-center text-xl font-semibold 
-                    border-2 rounded-lg w-3/4 self-center
+                    border-2 rounded-lg self-center px-3
                     hover:text-cyan-400 hover:border-cyan-400">
-      <a href={props.link}>
+      <a href={props.link} target="_blank">
         <p>
           {props.tag}
         </p>
