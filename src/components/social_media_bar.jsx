@@ -15,22 +15,22 @@ const SocialMediaBar = () => {
                        xl:text-6xl">
           {callToAction}
         </h2>
-        <div className="flex gap-6 justify-center text-4xl text-white my-auto
+        <div className="flex gap-6 justify-center text-4xl text-cyan-400 my-auto
                         xs:text-6xl xl:text-7xl">
             <a href="https://www.youtube.com/c/REDPackEsports" target="_blank" rel="noreferrer">
-              <BsYoutube className="hover:text-cyan-400"/>
+              <BsYoutube className="hover:text-white"/>
             </a> 
             <a href="https://twitter.com/RedPackEsports" target="_blank" rel="noreferrer">
-              <BsTwitter className="hover:text-cyan-400"/>
+              <BsTwitter className="hover:text-white"/>
             </a>
             <a href="https://www.instagram.com/_redpack_" target="_blank" rel="noreferrer">
-              <BsInstagram className="hover:text-cyan-400"/>
+              <BsInstagram className="hover:text-white"/>
             </a>
             <a href="https://www.facebook.com/redpackesports" target="_blank" rel="noreferrer">
-              <BsFacebook className="hover:text-cyan-400"/>
+              <BsFacebook className="hover:text-white"/>
             </a>
             <a href="https://www.twitch.tv/redpackorg" target="_blank" rel="noreferrer">
-              <BsTwitch className="hover:text-cyan-400"/>
+              <BsTwitch className="hover:text-white"/>
             </a>
         </div>
 
