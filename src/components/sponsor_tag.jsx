@@ -7,7 +7,8 @@ const SponsorTag = (props) => {
                     hover:text-cyan-400 hover:border-cyan-400
                     xs:text-2xl xs:px-6
                     md:text-xl
-                    lg:text-2xl">
+                    lg:text-2xl
+                    xl:text-3xl">
       <a href={props.link} target="_blank">
         <p>
           {props.tag}

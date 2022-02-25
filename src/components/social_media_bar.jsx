@@ -11,11 +11,12 @@ const SocialMediaBar = () => {
         <h2 className="text-3xl text-center font-semibold my-auto
                        xs:text-5xl
                        md:text-3xl
-                       lg:text-5xl lg:text-right">
+                       lg:text-5xl lg:text-right
+                       xl:text-6xl">
           {callToAction}
         </h2>
         <div className="flex gap-6 justify-center text-4xl text-cyan-400 my-auto
-                        xs:text-6xl">
+                        xs:text-6xl xl:text-7xl">
             <a href="https://www.youtube.com/c/REDPackEsports" target="_blank">
               <BsYoutube />
             </a> 

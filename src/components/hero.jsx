@@ -21,14 +21,18 @@ const Hero = () => {
         <h2 className="text-center text-3xl font-black text-red-700
                        xs:text-5xl
                        md:text-4xl
-                       lg:text-5xl">
+                       lg:text-5xl
+                       xl:text-6xl
+                       2xl:text-7xl">
           {description}
         </h2>
         <h2 className="text-center text-2xl font-bold
                        hover:underline hover:text-cyan-400
                        xs:text-4xl
                        md:text-3xl
-                       lg:text-4xl"> 
+                       lg:text-4xl
+                       xl:text-5xl
+                       2xl:text-6xl"> 
           {link}
         </h2>
       </div>
