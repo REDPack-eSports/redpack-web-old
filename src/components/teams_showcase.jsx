@@ -64,7 +64,8 @@ const TeamShowcase = () => {
   return (
     <div className="p-6 bg-red-700">
         <SectionHeader name="TEAMS"/>
-        <div className="grid grid-cols-1 gap-6">
+        <div className="grid grid-cols-1 gap-6
+                        md:grid-cols-2">
           {teams.map((team) => (
             <Team name={team.name}
                   game={team.game}

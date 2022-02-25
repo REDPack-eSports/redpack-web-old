@@ -9,21 +9,23 @@ const Creator = (props) => {
         <div className="my-auto">
           <h1 className="text-lg font-black text-left
                          xs:text-2xl
-                         sm:text-lg">
+                         sm:text-lg
+                         md:text-2xl">
             {props.name}
           </h1>
           <p className="text-base text-black font-bold text-left
                         xs:text-xl
-                        sm:text-base">
+                        sm:text-base
+                        md:text-xl">
             {props.game}
           </p>
         </div>
         <div className="my-auto flex gap-3">
           {props.platform === "YouTube" ? 
-            <BsYoutube className="text-5xl" /> :
-            <BsTwitch className="text-5xl" />
+            <BsYoutube className="text-5xl md:text-6xl" /> :
+            <BsTwitch className="text-5xl md:text-6xl" />
           }
-          <p className="my-auto text-xl font-black">{props.audience}</p>
+          <p className="my-auto text-xl font-black md:text-2xl">{props.audience}</p>
         </div>
       </div>
     </a>

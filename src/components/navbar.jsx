@@ -7,7 +7,8 @@ const NavBar = () => {
                     flex gap-6
                     bg-black
                     font-bold text-sm text-white
-                    xs:text-lg">
+                    xs:text-lg
+                    lg:text-xl">
       {[
         {
           tag: "HOME",
