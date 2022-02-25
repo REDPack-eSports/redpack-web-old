@@ -9,7 +9,7 @@ const SponsorTag = (props) => {
                     md:text-xl
                     lg:text-2xl
                     xl:text-3xl">
-      <a href={props.link} target="_blank">
+      <a href={props.link} target="_blank" rel="noreferrer">
         <p>
           {props.tag}
         </p>

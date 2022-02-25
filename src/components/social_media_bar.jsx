@@ -17,19 +17,19 @@ const SocialMediaBar = () => {
         </h2>
         <div className="flex gap-6 justify-center text-4xl text-cyan-400 my-auto
                         xs:text-6xl xl:text-7xl">
-            <a href="https://www.youtube.com/c/REDPackEsports" target="_blank">
+            <a href="https://www.youtube.com/c/REDPackEsports" target="_blank" rel="noreferrer">
               <BsYoutube />
             </a> 
-            <a href="https://twitter.com/RedPackEsports" target="_blank">
+            <a href="https://twitter.com/RedPackEsports" target="_blank" rel="noreferrer">
               <BsTwitter />
             </a>
-            <a href="https://www.instagram.com/_redpack_" target="_blank">
+            <a href="https://www.instagram.com/_redpack_" target="_blank" rel="noreferrer">
               <BsInstagram />
             </a>
-            <a href="https://www.facebook.com/redpackesports" target="_blank">
+            <a href="https://www.facebook.com/redpackesports" target="_blank" rel="noreferrer">
               <BsFacebook />
             </a>
-            <a href="https://www.twitch.tv/redpackorg" target="_blank">
+            <a href="https://www.twitch.tv/redpackorg" target="_blank" rel="noreferrer">
               <BsTwitch />
             </a>
         </div>
