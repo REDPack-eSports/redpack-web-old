@@ -227,7 +227,8 @@ const CreatorsShowcase = () => {
   return (
     <div className="p-6 bg-black">
       <SectionHeader name="CREATORS"/>
-      <div className="grid grid-cols-1 gap-3">
+      <div className="grid grid-cols-1 gap-3
+                      sm:grid-cols-2">
         {creators.map((creator) => (
           <Creator name={creator.name}
                    game={creator.game}
