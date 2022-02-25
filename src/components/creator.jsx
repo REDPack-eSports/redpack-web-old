@@ -4,7 +4,7 @@ import { BsYoutube, BsTwitch } from 'react-icons/bs';
 const Creator = (props) => {
   return (
     <a href={props.link} target="_blank" rel="noreferrer">
-      <div className="bg-red-700 rounded-xl p-6
+      <div className="bg-rose-800 rounded-xl p-6
                       grid grid-cols-2 gap-4 h-full group">
         <div className="my-auto">
           <h1 className="text-lg font-black text-left

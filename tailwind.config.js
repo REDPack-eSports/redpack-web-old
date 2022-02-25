@@ -8,7 +8,12 @@ module.exports = {
       'xs': "480px",
       ...defaultTheme.screens,
     },
-    extend: {},
+    extend: {
+      colors: {
+        'white': '#fafafa',
+        'black': '#0a0a0a',
+      },
+    },
   },
   plugins: [],
 };

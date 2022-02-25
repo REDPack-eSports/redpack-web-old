@@ -27,7 +27,7 @@ const NavBar = () => {
           link: "/",
         },
       ].map((navElement) => (
-        <p className="hover:text-red-800 hover:underline">{navElement.tag}</p>
+        <p className="hover:text-rose-700 hover:underline">{navElement.tag}</p>
       ))}
     </div>
   )

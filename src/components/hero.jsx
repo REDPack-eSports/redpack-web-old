@@ -18,7 +18,7 @@ const Hero = () => {
         />
       </div>
       <div className="flex flex-col gap-6 my-auto">
-        <h2 className="text-center text-3xl font-black text-red-700
+        <h2 className="text-center text-3xl font-black text-rose-800
                        xs:text-5xl
                        md:text-4xl
                        lg:text-5xl

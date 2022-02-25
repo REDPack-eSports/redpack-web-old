@@ -11,7 +11,7 @@ const IndexPage = () => {
     <>
       <Layout>
         <Hero />
-        <SocialMediaBar className="bg-red-700"/>
+        <SocialMediaBar className="bg-rose-800"/>
         <EventsShowcase />
         <TeamsShowcase />
       </Layout>
