@@ -7,10 +7,12 @@ const Creator = (props) => {
       <div className="bg-red-700 rounded-xl p-6
                       grid grid-cols-2 gap-4">
         <div>
-          <h1 className="text-lg font-black text-left">
+          <h1 className="text-lg font-black text-left
+                         xs:text-2xl">
             {props.name}
           </h1>
-          <p className="text-md text-black font-bold text-left">
+          <p className="text-md text-black font-bold text-left
+                        xs: text-xl">
             {props.game}
           </p>
         </div>

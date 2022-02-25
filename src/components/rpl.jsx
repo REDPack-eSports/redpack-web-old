@@ -18,11 +18,13 @@ const Rpl = () => {
         />
       </div>
       <div className="flex flex-col gap-6 my-auto">
-        <h2 className="text-center text-3xl font-black text-red-700">
+        <h2 className="text-center text-3xl font-black text-red-700
+                       xs:text-5xl">
           {description}
         </h2>
         <h2 className="text-center text-2xl font-bold
-                       hover:underline hover:text-cyan-400"> 
+                       hover:underline hover:text-cyan-400
+                       xs:text-4xl"> 
           {link}
         </h2>
       </div>
