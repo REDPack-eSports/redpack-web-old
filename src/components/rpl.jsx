@@ -13,7 +13,7 @@ const Rpl = () => {
     <div className="grid grid-rows-2 gap-3
                     md:grid-cols-2 md:grid-rows-1">
       <div className="flex flex-col gap-6">
-        <img src={image} alt="Romainan Provisional League" className="w-full self-center"/>
+        <img src={image} alt="Romainan Provisional League" className="w-3/4 self-center"/>
         <SponsorTag link={sponsor_link}
                     tag={sponsor_tag}
         />
