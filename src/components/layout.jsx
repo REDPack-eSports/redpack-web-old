@@ -11,7 +11,7 @@ const Layout = (props) => {
         <NavBar />
         <div className="flex flex-col">
           {props.children}
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </div>
     </>

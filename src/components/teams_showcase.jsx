@@ -62,7 +62,7 @@ const TeamShowcase = () => {
   ]
 
   return (
-    <div className="p-6 bg-rose-900">
+    <div className="p-6 bg-rose-700">
         <SectionHeader name="TEAMS"/>
         <div className="grid grid-cols-1 gap-6
                         md:grid-cols-2">
