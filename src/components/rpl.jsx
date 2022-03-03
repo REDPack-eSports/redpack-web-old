@@ -1,12 +1,12 @@
 import React from 'react'
 
-import SponsorTag from './sponsor_tag'
+// import SponsorTag from './sponsor_tag'
 
 import image from "../images/hero_tournament.png"
 
 const Rpl = () => {
-  const sponsor_tag = "YOUR BRAND HERE"
-  const sponsor_link = "http://yourbrandhere.link/"
+  // const sponsor_tag = "YOUR BRAND HERE"
+  // const sponsor_link = "http://yourbrandhere.link/"
   const description = "A NEW LEAGUE FOR ROMANIAN CS:GO ACADEMIES"
   const link = "> COMING SOON <"
   return (
@@ -14,9 +14,9 @@ const Rpl = () => {
                     md:grid-cols-2 md:grid-rows-1">
       <div className="flex flex-col gap-6">
         <img src={image} alt="Romainan Provisional League" className="w-3/4 self-center"/>
-        <SponsorTag link={sponsor_link}
+        {/* <SponsorTag link={sponsor_link}
                     tag={sponsor_tag}
-        />
+        /> */}
       </div>
       <div className="flex flex-col gap-6 my-auto">
         <h2 className="text-center text-3xl font-black text-rose-800
@@ -28,12 +28,12 @@ const Rpl = () => {
           {description}
         </h2>
         <h2 className="text-center text-2xl font-bold
-                       hover:underline hover:text-cyan-400
                        xs:text-4xl
                        md:text-3xl
                        lg:text-4xl
                        xl:text-5xl
                        2xl:text-6xl"> 
+          {/*hover:underline hover:text-cyan-400*/}
           {link}
         </h2>
       </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import SponsorTag from './sponsor_tag'
+// import SponsorTag from './sponsor_tag'
 
 const Team = (props) => {
   return (
@@ -13,9 +13,9 @@ const Team = (props) => {
                          lg:text-5xl">
             {props.name}
           </h1>
-          <SponsorTag link={props.sponsor.link}
+          {/* <SponsorTag link={props.sponsor.link}
                       tag={props.sponsor.tag}
-          />
+          /> */}
           <h2 className="text-xl xs:text-2xl lg:text-3xl">
             {props.game}
           </h2>
