@@ -1,4 +1,11 @@
 node_modules/
+
+# gatsby artefacts
 .cache/
-public/
+public
+
+# environment file
 .env.development
+
+# editor specific
+.vscode/
