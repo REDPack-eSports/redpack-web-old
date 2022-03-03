@@ -139,31 +139,10 @@ const CreatorsShowcase = () => {
       platform: "YouTube",
     },
     {
-      name: "radicaL.",
-      game: "FiveM",
-      link: "https://www.youtube.com/channel/UCn2hNuMCbCav8zY28VtC3DQ",
-      audience:	"4k",
-      platform: "YouTube",
-    },
-    {
       name: "Miruna Antonia",
       game: "Variety",
       link: "https://www.youtube.com/c/MirunaAntonia",
       audience:	"10.5k",
-      platform: "YouTube",
-    },
-    {
-      name: "Haled",
-      game: "Fortnite",
-      link: "https://www.youtube.com/c/Haled",
-      audience:	"5.2k",
-      platform: "YouTube",
-    },
-    {
-      name: "7kick",
-      game: "CS:GO",
-      link: "https://www.youtube.com/channel/UClttGh8dGCwGuT_LObb7-Sw",
-      audience:	"1.6k",
       platform: "YouTube",
     },
     {

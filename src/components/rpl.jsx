@@ -8,7 +8,7 @@ const Rpl = () => {
   const sponsor_tag = "YOUR BRAND HERE"
   const sponsor_link = "http://yourbrandhere.link/"
   const description = "A NEW LEAGUE FOR ROMANIAN CS:GO ACADEMIES"
-  const link = "> FIND OUT MORE <"
+  const link = "> COMING SOON <"
   return (
     <div className="grid grid-rows-2 gap-3
                     md:grid-cols-2 md:grid-rows-1">
