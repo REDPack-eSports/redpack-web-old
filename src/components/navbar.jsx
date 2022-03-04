@@ -3,7 +3,7 @@ import { AnchorLink } from 'gatsby-plugin-anchor-links'
 
 const NavBar = () => {
   return (
-    <div className="fixed top-0 left-0 w-full 
+    <div className="fixed z-10 top-0 left-0 w-full 
                     px-3 py-3
                     flex gap-6
                     bg-black
