@@ -1,8 +1,7 @@
 import React from 'react'
+import { StaticImage } from 'gatsby-plugin-image'
 
 // import SponsorTag from './sponsor_tag'
-
-import image from "../images/hero_tournament.png"
 
 const Rpl = () => {
   // const sponsor_tag = "YOUR BRAND HERE"
@@ -13,7 +12,7 @@ const Rpl = () => {
     <div className="grid grid-rows-2 gap-3
                     md:grid-cols-2 md:grid-rows-1">
       <div className="flex flex-col gap-6">
-        <img src={image} alt="Romainan Provisional League" className="w-3/4 self-center"/>
+        <StaticImage src="../images/rpl.png" placeholder="blurred" alt="Romainan Provisional League" className="w-3/4 self-center"/>
         {/* <SponsorTag link={sponsor_link}
                     tag={sponsor_tag}
         /> */}

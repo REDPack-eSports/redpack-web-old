@@ -1,6 +1,6 @@
 import React from 'react'
 
-// import NavBar from './navbar'
+import NavBar from './navbar'
 // import Footer from './footer'
 
 const Layout = (props) => {
@@ -8,7 +8,7 @@ const Layout = (props) => {
     <>
       <div className="bg-black text-white
                       w-full">
-        {/* <NavBar /> */}
+        <NavBar />
         <div className="flex flex-col">
           {props.children}
           {/* <Footer /> */}

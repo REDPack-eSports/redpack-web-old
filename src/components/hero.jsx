@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 
 // import SponsorTag from "./sponsor_tag";
-import image from "../images/hero_redpack.png"
 
 const Hero = () => {
   const description = "THE FASTEST GROWING ROMAINAN ESPORTS ORGANIZATION"
@@ -10,10 +10,10 @@ const Hero = () => {
   // const sponsor_link = "http://yourbrandhere.link/"
   const link = "> THE STORY SO FAR <"
   return (
-    <div className="grid grid-rows-2 gap-3 p-6 mt-6
+    <div id="hero" className="grid grid-rows-2 gap-3 p-6 mt-6
                     md:grid-cols-2 md:grid-rows-1">
       <div className="flex flex-col gap-6">
-        <img src={image} alt="Redpack" className="w-full self-center"/>
+        <StaticImage src="../images/hero.png" placeholder="blurred" alt="Redpack" className="w-full self-center"/>
         {/* <SponsorTag link={sponsor_link}
                     tag={sponsor_tag}
         /> */}
