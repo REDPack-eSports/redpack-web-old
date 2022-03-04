@@ -10,7 +10,7 @@ const Hero = () => {
   // const sponsor_link = "http://yourbrandhere.link/"
   const link = "> THE STORY SO FAR <"
   return (
-    <div className="grid grid-rows-2 gap-3 p-6 mt-6
+    <div id="hero" className="grid grid-rows-2 gap-3 p-6 mt-6
                     md:grid-cols-2 md:grid-rows-1">
       <div className="flex flex-col gap-6">
         <img src={image} alt="Redpack" className="w-full self-center"/>

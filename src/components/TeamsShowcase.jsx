@@ -63,7 +63,7 @@ const TeamShowcase = () => {
 
   return (
     <div className="p-6 bg-rose-800">
-        <SectionHeader name="TEAMS"/>
+        <SectionHeader name="TEAMS" anchor="teams"/>
         <div className="grid grid-cols-1 gap-6
                         md:grid-cols-2">
           {teams.map((team) => (

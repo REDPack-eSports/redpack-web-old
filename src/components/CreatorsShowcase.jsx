@@ -205,7 +205,7 @@ const CreatorsShowcase = () => {
 
   return (
     <div className="p-6 bg-black">
-      <SectionHeader name="CREATORS"/>
+      <SectionHeader name="CREATORS" anchor="creators"/>
       <div className="grid grid-cols-1 gap-3
                       sm:grid-cols-2
                       lg:grid-cols-3

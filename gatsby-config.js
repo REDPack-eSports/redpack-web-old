@@ -3,5 +3,14 @@ module.exports = {
     siteUrl: "https://www.redpack.org",
     title: "redpack-web",
   },
-  plugins: ["gatsby-plugin-gatsby-cloud", "gatsby-plugin-postcss"],
-};
+  plugins: [
+    "gatsby-plugin-gatsby-cloud",
+    "gatsby-plugin-postcss",
+    {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: -50,
+      },
+    },
+  ],
+}

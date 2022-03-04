@@ -1,4 +1,5 @@
 import React from 'react'
+import { AnchorLink } from 'gatsby-plugin-anchor-links'
 
 const NavBar = () => {
   return (
@@ -11,23 +12,25 @@ const NavBar = () => {
                     lg:text-xl">
       {[
         {
-          tag: "HOME",
-          link: "/",
+          tag: "HERO",
+          link: "/#hero",
         },
         {
           tag: "EVENTS",
-          link: "/",
+          link: "/#events",
         },
         {
           tag: "TEAMS",
-          link: "/",
+          link: "/#teams",
         },
         {
           tag: "CREATORS",
-          link: "/",
+          link: "/#creators",
         },
       ].map((navElement) => (
-        <p className="hover:text-rose-800 hover:underline">{navElement.tag}</p>
+        <AnchorLink to={navElement.link}>
+          <p className="hover:text-rose-800">{navElement.tag}</p>
+        </AnchorLink>
       ))}
     </div>
   )
