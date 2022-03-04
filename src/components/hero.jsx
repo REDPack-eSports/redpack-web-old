@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 
 // import SponsorTag from "./sponsor_tag";
 import image from "../images/hero_redpack.png"
@@ -7,7 +8,7 @@ const Hero = () => {
   const description = "THE FASTEST GROWING ROMAINAN ESPORTS ORGANIZATION"
   // const sponsor_tag = "YOUR BRAND HERE"
   // const sponsor_link = "http://yourbrandhere.link/"
-  // const link = "> THE STORY SO FAR <"
+  const link = "> THE STORY SO FAR <"
   return (
     <div className="grid grid-rows-2 gap-3 p-6 mt-6
                     md:grid-cols-2 md:grid-rows-1">
@@ -26,15 +27,17 @@ const Hero = () => {
                        2xl:text-7xl">
           {description}
         </h2>
-        {/* <h2 className="text-center text-2xl font-bold
-                       hover:underline hover:text-cyan-400
-                       xs:text-4xl
-                       md:text-3xl
-                       lg:text-4xl
-                       xl:text-5xl
-                       2xl:text-6xl"> 
-          {link}
-        </h2> */}
+        <Link to="/story">
+          <h2 className="text-center text-2xl font-bold
+                        hover:underline hover:text-cyan-400
+                        xs:text-4xl
+                        md:text-3xl
+                        lg:text-4xl
+                        xl:text-5xl
+                        2xl:text-6xl"> 
+            {link}
+          </h2>
+        </Link>
       </div>
     </div>
   );
