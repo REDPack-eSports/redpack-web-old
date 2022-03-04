@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { BsYoutube, BsTwitch } from 'react-icons/bs';
+
 const Creator = (props) => {
   return (
     <a href={props.link} target="_blank" rel="noreferrer">

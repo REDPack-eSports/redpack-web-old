@@ -1,8 +1,8 @@
 import React from 'react'
 
-// import SponsorTag from './sponsor_tag'
+// import SponsorTag from './SponsorTag'
 
-import image from "../images/hero_tournament.png"
+import image from "../images/rpl.png"
 
 const Rpl = () => {
   // const sponsor_tag = "YOUR BRAND HERE"

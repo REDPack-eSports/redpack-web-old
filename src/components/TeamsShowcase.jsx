@@ -1,7 +1,7 @@
 import React from 'react'
 
-import SectionHeader from './section_header'
-import Team from './team'
+import SectionHeader from './SectionHeader'
+import Team from './Team'
 
 const TeamShowcase = () => {
   const teams = [

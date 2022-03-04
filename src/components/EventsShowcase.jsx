@@ -1,7 +1,7 @@
 import React from 'react'
 
-import SectionHeader from './section_header'
-import Rpl from './rpl'
+import SectionHeader from './SectionHeader'
+import Rpl from './Rpl'
 
 const EventsShowcase = () => {
   return (

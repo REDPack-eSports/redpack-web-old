@@ -1,6 +1,6 @@
 import React from 'react'
 
-// import SponsorTag from './sponsor_tag'
+// import SponsorTag from './SponsorTag'
 
 const Team = (props) => {
   return (
