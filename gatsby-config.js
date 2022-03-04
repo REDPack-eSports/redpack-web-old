@@ -12,5 +12,8 @@ module.exports = {
         offset: -50,
       },
     },
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
   ],
 }
