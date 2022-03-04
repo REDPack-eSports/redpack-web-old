@@ -1,7 +1,7 @@
 import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 
-// import SponsorTag from './SponsorTag'
+// import SponsorTag from './sponsor_tag'
 
 const Rpl = () => {
   // const sponsor_tag = "YOUR BRAND HERE"

@@ -1,12 +1,11 @@
 import React from 'react'
 
-import SectionHeader from './SectionHeader'
-import Team from './Team'
+import SectionHeader from './section_header'
+import Team from './team'
 
 import teams from '../data/teams'
 
-const TeamShowcase = () => {
-
+const TeamsShowcase = () => {
   return (
     <div className="p-6 bg-rose-800">
         <SectionHeader name="TEAMS" anchor="teams"/>
@@ -24,4 +23,4 @@ const TeamShowcase = () => {
   )
 }
 
-export default TeamShowcase
+export default TeamsShowcase

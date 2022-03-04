@@ -1,7 +1,7 @@
 import React from 'react'
 
-import SectionHeader from './SectionHeader'
-import Creator from './Creator'
+import SectionHeader from './section_header'
+import Creator from './creator'
 
 import creators from '../data/creators'
 

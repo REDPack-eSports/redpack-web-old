@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
-// import SponsorTag from "./SponsorTag";
+// import SponsorTag from "./sponsor_tag";
 
 const Hero = () => {
   const description = "THE FASTEST GROWING ROMAINAN ESPORTS ORGANIZATION"
@@ -29,12 +29,12 @@ const Hero = () => {
         </h2>
         <Link to="/story">
           <h2 className="text-center text-2xl font-bold
-                       hover:text-cyan-400
-                         xs:text-4xl
-                         md:text-3xl
-                         lg:text-4xl
-                         xl:text-5xl
-                         2xl:text-6xl"> 
+                        hover:underline hover:text-cyan-400
+                        xs:text-4xl
+                        md:text-3xl
+                        lg:text-4xl
+                        xl:text-5xl
+                        2xl:text-6xl"> 
             {link}
           </h2>
         </Link>
