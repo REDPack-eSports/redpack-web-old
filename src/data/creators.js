@@ -42,13 +42,6 @@ const creators = [
     platform: "YouTube",
   },
   {
-    name: "Rzvhere",
-    game: "Valorant",
-    link: "https://www.twitch.tv/rzvfatherr",
-    audience: "150",
-    platform: "Twitch",
-  },
-  {
     name: "Cristi YT",
     game: "Variety",
     link: "https://www.youtube.com/channel/UCdufO9-UE_89-DMu5UAAtwQ",
@@ -112,24 +105,10 @@ const creators = [
     platform: "Twitch",
   },
   {
-    name: "SwiFT YhaRo",
-    game: "Rocket League",
-    link: "https://www.youtube.com/channel/UCROSmQAbxiZPv-A_1xPe62g",
-    audience: "150",
-    platform: "YouTube",
-  },
-  {
     name: "Glack",
     game: "Fortnite",
     link: "https://www.youtube.com/channel/UCzS6nn_yw43YTxldueXMrBg",
     audience: "850",
-    platform: "YouTube",
-  },
-  {
-    name: "Vasluianu",
-    game: "Fortnite",
-    link: "https://www.youtube.com/results?search_query=vasluianu+FN",
-    audience: "750",
     platform: "YouTube",
   },
   {
@@ -154,25 +133,11 @@ const creators = [
     platform: "YouTube",
   },
   {
-    name: "Adryaan",
-    game: "CS:GO",
-    link: "https://www.youtube.com/channel/UCIBuf_BxXAbOX64_jD5KLeg",
-    audience: "3.4k",
-    platform: "YouTube",
-  },
-  {
     name: "cristinelu",
     game: "Fortnite",
     link: "https://www.youtube.com/c/Cristinelu11",
     audience: "4.4k",
     platform: "YouTube",
-  },
-  {
-    name: "KickerzD",
-    game: "Valorant",
-    link: "https://www.twitch.tv/kickerzd",
-    audience: "750",
-    platform: "Twitch",
   },
   {
     name: "Y-Alaxin",
@@ -182,17 +147,17 @@ const creators = [
     platform: "YouTube",
   },
   {
-    name: "ValyS",
-    game: "Fortnite",
-    link: "https://www.youtube.com/channel/UCFwSla38RLaxRpseUK-C5MA/videos?view=57",
-    audience: "2.8k",
-    platform: "YouTube",
-  },
-  {
     name: "heavenache",
     game: "CS:GO",
     link: "https://www.youtube.com/channel/UCEPaxe08q1FwUbzcn3Ji92w",
     audience: "23.8k",
+    platform: "YouTube",
+  },
+  {
+    name: "radicaL",
+    game: "Variety",
+    link: "https://www.youtube.com/channel/UCn2hNuMCbCav8zY28VtC3DQ",
+    audience: "8k",
     platform: "YouTube",
   },
 ]
