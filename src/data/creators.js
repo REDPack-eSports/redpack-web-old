@@ -14,31 +14,10 @@ const creators = [
     platform: "YouTube",
   },
   {
-    name: "Gabriela Bucur",
-    game: "Variety",
-    link: "https://www.youtube.com/c/GabrielaBucur27",
-    audience: "1.8k",
-    platform: "YouTube",
-  },
-  {
     name: "Andreiul",
     game: "Variety",
     link: "https://www.youtube.com/c/Tataie",
     audience: "3.2k",
-    platform: "YouTube",
-  },
-  {
-    name: "Sevena",
-    game: "Variety",
-    link: "https://www.youtube.com/user/7annasammy",
-    audience: "5.8k",
-    platform: "YouTube",
-  },
-  {
-    name: "Cristina Simion",
-    game: "Variety",
-    link: "https://www.youtube.com/c/CristinaSimion",
-    audience: "2.7k",
     platform: "YouTube",
   },
   {
